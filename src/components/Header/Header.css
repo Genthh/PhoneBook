@@ -1,0 +1,15 @@
+.container {
+    background: black;
+    position:fixed;
+    width:100%;
+    left:0;
+    top:0;
+    right: 0;
+    z-index: 1000;
+}
+.container h1{
+    font-weight: 400;
+    color: lightgray;
+    margin: 10px 2px 3px 5px;
+    padding: 7px 25px;
+}

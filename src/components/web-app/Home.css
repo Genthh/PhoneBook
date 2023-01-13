@@ -1,0 +1,36 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    width: 95%;
+  }
+
+tr:nth-child(odd) {
+  background-color: rgb(220,220,220);
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+th{
+  background-color: white;
+}
+  table {
+    border-collapse: collapse;
+    margin: 12rem 3rem 4rem 4rem;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  th,
+  td {
+    border: 1px solid rgba(0, 0, 0, 0.242);
+    padding: 4px;
+    font-size: 22px;
+  }
+  
+  form * {
+    font-size: 16px;
+  }
